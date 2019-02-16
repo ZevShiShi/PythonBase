@@ -575,7 +575,6 @@ buffering:如果buffering的值被设为0，就不会有寄存。如果buffering
 表明了这就是的寄存区的缓冲大小。如果取负值，寄存区的缓冲大小则为系统默认。
 """
 
-
 # 打开一个文件
 # my_file = open('test.txt', 'w')
 # my_file = open('test.txt', 'a+')
@@ -604,6 +603,10 @@ buffering:如果buffering的值被设为0，就不会有寄存。如果buffering
 
 # 重新命名文件名称
 # import os
+# 设置文件路径 获取路径最后的文件名称
+# fn = os.path.basename("xixi.txt")
+# open(fn, 'w').write("haha")
+
 # os.rename('test.txt', 'text.txt')
 
 # 删除文件

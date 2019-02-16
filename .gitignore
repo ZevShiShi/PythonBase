@@ -1,3 +1,6 @@
 # 此为注释 – 将被 Git 忽略
+# 使用下面命令清空git库缓存，重新添加去掉相关文件
+# git rm -r --cached .
+# git add .
 venv/
 .idea
